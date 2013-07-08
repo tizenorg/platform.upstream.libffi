@@ -1,0 +1,10 @@
+Change-Id: I9afe851c146c40a137b5cf099d1e16658c3a38a3
+Code-Review+2: Auke Kok <auke-jan.h.kok@intel.com>
+Code-Review+1: Patrick McCarty <patrick.mccarty@linux.intel.com>
+Code-Review+1: Anas Nashif <anas.nashif@intel.com>
+Verified+1: Anas Nashif <anas.nashif@intel.com>
+Submitted-by: Anas Nashif <anas.nashif@intel.com>
+Submitted-at: Mon, 08 Jul 2013 13:51:36 -0700
+Reviewed-on: https://review.tizen.org/gerrit/5552
+Project: platform/upstream/libffi
+Branch: refs/heads/tizen
