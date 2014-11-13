@@ -1,7 +1,7 @@
 %global multilib_arches %{ix86}  x86_64
 
 Name:           libffi
-Version:        3.0.13
+Version:        3.1
 Release:        0
 Summary:        A portable foreign function interface library
 License:        MIT
@@ -52,7 +52,7 @@ developing applications that use %{name}.
 
 
 %build
-%configure --disable-static
+%reconfigure --disable-static
 make %{?_smp_mflags}
 
 
@@ -93,6 +93,6 @@ install -m644 %{SOURCE2} %{buildroot}%{_includedir}/ffitarget.h
 %{_includedir}/ffi*.h
 %{_libdir}/*.so
 %{_mandir}/man3/*.gz
-%{_infodir}/libffi.info.gz
+#%{_infodir}/libffi.info.gz
 
 %changelog
