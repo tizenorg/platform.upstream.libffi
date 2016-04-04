@@ -52,6 +52,9 @@ developing applications that use %{name}.
 
 
 %build
+export CFLAGS+=" -fvisibility=hidden"
+  export CXXFLAGS+=" -fvisibility=hidden"
+  
 %reconfigure --disable-static
 make %{?_smp_mflags}
 
