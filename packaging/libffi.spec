@@ -52,6 +52,7 @@ developing applications that use %{name}.
 
 
 %build
+export LDFLAGS+="-Wl,-z,noexecstack"
 %reconfigure --disable-static
 make %{?_smp_mflags}
 
